@@ -1,0 +1,7 @@
+sentence = input("Enter a sentence: ")
+sen_set = set(sentence)
+dict = {}
+for i in sen_set:
+    dict[i] = sentence.count(i)
+
+print(dict)
